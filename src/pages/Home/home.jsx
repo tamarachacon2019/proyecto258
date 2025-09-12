@@ -20,14 +20,14 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* Botón ESTILOS */}
-      <div className="card" onClick={() => navigate("/explore")}>
+      <div className="card" onClick={() => navigate("/explore/templates")}>
         <img src="/icons/estilos.png" alt="Estilos" />
         <h2>ESTILOS</h2>
         <p>Inspírate a hacer tu outfit según el estilo que más te guste</p>
       </div>
 
       {/* Botón AGREGAR */}
-      <div className="card" onClick={() => navigate("/outfit")}>
+      <div className="card" onClick={() => navigate("/crearoutfit")}>
         <img src="/icons/agregar.png" alt="Agregar" />
         <h2>AGREGAR</h2>
         <p>Crea tu outfit que más te guste</p>

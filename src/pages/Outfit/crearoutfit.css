@@ -1,0 +1,114 @@
+.crear-outfit-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white; /* Fondo blanco por defecto */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+
+
+.crear-outfit-header {
+  width: 100%;
+  background: #181828;
+  color: #e5e5ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  font-family: serif;
+  font-size: 2rem;
+}
+
+.crear-outfit-title {
+  flex: 1;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.crear-outfit-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.crear-outfit-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.crear-outfit-left {
+  align-items: flex-end;
+}
+
+.crear-outfit-right {
+  align-items: flex-start;
+}
+
+.crear-outfit-btn-large {
+  width: 170px;
+  height: 60px;
+  background: #888899;
+  color: #eaeaff;
+  font-size: 1.8rem;
+  border: 2px solid #111;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.crear-outfit-clothes-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.crear-outfit-clothing-row {
+  background: #fff;
+  margin: 12px 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  border-radius: 7px;
+}
+
+.prenda-img {
+  max-width: 115px;
+  height: auto;
+  margin-bottom: 6px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.crear-outfit-footer {
+  width: 100%;
+  background: #181828;
+  color: #e5e5ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 48px;
+  font-family: serif;
+  font-size: 1.3rem;
+}
+
+.crear-outfit-save {
+  width: 140px;
+  background: #22224d;
+  color: #fafaff;
+  font-size: 1.4rem;
+  border-radius: 3px;
+}
